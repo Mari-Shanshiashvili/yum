@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 1%;
+}
+.container {
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+
+.card {
+    column-gap: 10px;
+    max-width: 300px;
+}
+
+.Cart {
+    border-color: rgb(69, 43, 43);
+    border-radius: 50px;
+    font-weight: 700;
+    margin-left: 3%;
+    margin-top: -10%;
+    margin-top: -15px;
+    min-height: 15%;
+    min-width: 60%;
+}
+.Cart-img {
+    float: left;
+    border: 2px solid black;
+}
+
+img {
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: -6%;
+    margin-left: -20%;
+    max-width: 320px;
+}
+
+.sub-names {
+    color: rgba(228, 86, 35, 0.7);
+}
+
+.prices {
+    color:rgb(227, 74, 18);
+    margin-left: 2%;
+}
+
+.side {
+    float: right;
+    height: 600px;
+    margin-top: -94%;
+    width:25%;
+}
+
+.fa-close {
+    float: right;
+    margin-left: 20%;
+}
+
+h2 {
+    color: rgb(201, 70, 22);
+}
+
+strong {
+    color:rgb(190, 63, 16);
+}
+
+h6 {
+    font-size: medium;
+}
+
+span {
+    opacity: 0.5;
+}
+
+p {
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.order-total {
+   color: black;
+   float: right;
+   font-size: x-large;
+   font-weight: 800;
+   margin-top: -9px;
+}
+
+.img-carbon {
+    float: left;
+    margin-left: 10%;
+    margin-top:20%;
+    }
+
+ .carbon-delivery {
+    margin-left: 20%;
+    margin-top: 20%;
+    }
+
+.confirm-order {
+    background-color: brown;
+    border-radius:50px;
+    color: white;
+    font-size:larger;
+    height: 55px;
+    margin-left: -10%;
+    margin-top: 20%;
+    width: 120%;
+}
+
+@media only screen and (max-width:1000px) {
+    .side {
+        height: 400px;
+        margin-left: 50%;
+        margin-top: 20%;
+        width: 100%;
+    }
+    
+    .container {
+        flex-direction:column;
+        margin-left: 40%;
+        width: 100%;
+    }
+   
+    .heading {
+        margin-left: 5%;
+    }
+    .img-carbon {
+    margin-left: 20%;
+    }
+    .carbon-delivery {
+        margin-left: 30%;
+    }
+      
+    .sub-names {
+      margin-top: 20px;
+    }
+
+    .cart-icon {
+        align-self: center;
+        display: flex;
+        margin-left: 14%;
+    }
+    p {
+        margin-top: -15px;
+    }
+}
